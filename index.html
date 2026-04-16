@@ -1,0 +1,2020 @@
+<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+    <!-- تحسين SEO متقدم -->
+    <title>مدونة العرائش التقنية | أكبر مكتبة عربية للشروحات التقنية</title>
+    <meta name="description" content="منصة متكاملة تضم آلاف المقالات والشروhots الحصرية في: تحسين محركات البحث (SEO)، ووردبريس، بلوجر، البرمجة، استضافة المواقع، أرباح أدسنس، والتسويق الرقمي. أكثر من 1000 مقال و 500 فيديو تعليمي.">
+    <meta name="keywords" content="مدونة العرائش التقنية, تعلم SEO, ووردبريس عربي, بلوجر, شروحات برمجة, HTML, CSS, JavaScript, PHP, MySQL, استضافة, دومين, أدسنس, أرباح, تسويق الكتروني, دروس تقنية, كورسات مجانية, تطوير مواقع, تصميم مواقع, تهيئة محركات البحث">
+    <meta name="author" content="مدونة العرائش التقنية">
+    <meta name="robots" content="index, follow, max-snippet:-1, max-image-preview:large">
+    
+    <!-- Open Graph -->
+    <meta property="og:type" content="website">
+    <meta property="og:site_name" content="مدونة العرائش التقنية">
+    <meta property="og:url" content="https://greatxenforo.blogspot.com/">
+    <meta property="og:title" content="مدونة العرائش التقنية - مرجعك الشامل في عالم التقنية">
+    <meta property="og:description" content="أكبر منصة عربية للشروحات التقنية مع أكثر من 1000 مقال حصري في مجالات SEO, ووردبريس, برمجة, وأدسنس">
+    <meta property="og:image" content="https://greatxenforo.blogspot.com/og-main.jpg">
+    <meta property="og:image:width" content="1200">
+    <meta property="og:image:height" content="630">
+    
+    <!-- Twitter Card -->
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:site" content="@LaracheTech">
+    <meta name="twitter:title" content="مدونة العرائش التقنية">
+    <meta name="twitter:description" content="تعلم التقنية خطوة بخطوة">
+    <meta name="twitter:image" content="https://greatxenforo.blogspot.com/twitter-card.jpg">
+    
+    <!-- روابط أساسية -->
+    <link rel="canonical" href="https://greatxenforo.blogspot.com/">
+    <link rel="alternate" type="application/rss+xml" title="مدونة العرائش التقنية - خلاصات RSS" href="https://greatxenforo.blogspot.com/feeds/posts/default">
+    
+    <!-- تحسينات الأداء -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link rel="preconnect" href="https://cdnjs.cloudflare.com">
+    <link rel="dns-prefetch" href="https://greatxenforo.blogspot.com">
+    
+    <!-- الخطوط -->
+    <link href="https://fonts.googleapis.com/css2?family=Cairo:wght@300;400;500;600;700;800;900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    
+    <style>
+        /* إعادة تعيين متقدمة */
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        /* متغيرات CSS للتحكم الكامل */
+        :root {
+            --primary: #2563eb;
+            --primary-dark: #1e40af;
+            --primary-light: #60a5fa;
+            --secondary: #7c3aed;
+            --secondary-dark: #5b21b6;
+            --accent: #f59e0b;
+            --accent-dark: #b45309;
+            --success: #10b981;
+            --danger: #ef4444;
+            --warning: #f59e0b;
+            --dark: #0f172a;
+            --dark-light: #1e293b;
+            --light: #f8fafc;
+            --gray: #94a3b8;
+            --gray-light: #cbd5e1;
+            --header-height: 70px;
+            --nav-height: 60px;
+            --border-radius: 20px;
+            --border-radius-sm: 12px;
+            --shadow-sm: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);
+            --shadow: 0 10px 25px -5px rgba(0,0,0,0.1), 0 8px 10px -6px rgba(0,0,0,0.02);
+            --shadow-lg: 0 25px 50px -12px rgba(0,0,0,0.25);
+            --shadow-hover: 0 30px 60px -12px rgba(50,50,93,0.25), 0 18px 36px -18px rgba(0,0,0,0.3);
+            --transition: all 0.3s cubic-bezier(0.4, 0, 0.2, 1);
+            --font-main: 'Cairo', sans-serif;
+        }
+
+        /* الوضع المظلم التلقائي */
+        @media (prefers-color-scheme: dark) {
+            :root {
+                --light: #0f172a;
+                --dark: #f8fafc;
+                --gray-light: #334155;
+            }
+        }
+
+        body {
+            font-family: var(--font-main);
+            background: linear-gradient(145deg, #1e1b4b 0%, #312e81 50%, #3730a3 100%);
+            color: #fff;
+            line-height: 1.7;
+            min-height: 100vh;
+            position: relative;
+        }
+
+        /* خلفية متحركة متطورة */
+        body::before {
+            content: '';
+            position: fixed;
+            top: 0;
+            left: 0;
+            right: 0;
+            bottom: 0;
+            background: 
+                radial-gradient(circle at 20% 30%, rgba(99, 102, 241, 0.15) 0%, transparent 30%),
+                radial-gradient(circle at 80% 70%, rgba(139, 92, 246, 0.15) 0%, transparent 35%),
+                radial-gradient(circle at 40% 80%, rgba(59, 130, 246, 0.12) 0%, transparent 40%),
+                radial-gradient(circle at 90% 20%, rgba(168, 85, 247, 0.12) 0%, transparent 35%);
+            pointer-events: none;
+            z-index: -1;
+            animation: gradientMove 20s ease infinite;
+        }
+
+        @keyframes gradientMove {
+            0%, 100% { opacity: 1; }
+            50% { opacity: 0.8; }
+        }
+
+        /* الحاوية الرئيسية */
+        .container {
+            max-width: 1400px;
+            margin: 0 auto;
+            padding: 0 25px;
+        }
+
+        /* ========== الهيدر المتطور ========== */
+        .header {
+            background: rgba(15, 23, 42, 0.8);
+            backdrop-filter: blur(15px) saturate(180%);
+            -webkit-backdrop-filter: blur(15px) saturate(180%);
+            border-bottom: 1px solid rgba(255, 255, 255, 0.1);
+            position: fixed;
+            top: 0;
+            left: 0;
+            right: 0;
+            z-index: 1000;
+            height: var(--header-height);
+            box-shadow: 0 4px 20px rgba(0, 0, 0, 0.2);
+        }
+
+        .header .container {
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            height: 100%;
+        }
+
+        /* لوجو احترافي */
+        .logo {
+            display: flex;
+            align-items: center;
+            gap: 15px;
+            text-decoration: none;
+            position: relative;
+        }
+
+        .logo-icon {
+            width: 50px;
+            height: 50px;
+            background: linear-gradient(135deg, #3b82f6, #8b5cf6, #d946ef);
+            border-radius: 14px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            font-size: 26px;
+            color: white;
+            transform: rotate(5deg);
+            transition: var(--transition);
+            box-shadow: 0 10px 20px -5px rgba(59, 130, 246, 0.5);
+            position: relative;
+            overflow: hidden;
+        }
+
+        .logo-icon::before {
+            content: '';
+            position: absolute;
+            top: -50%;
+            left: -50%;
+            width: 200%;
+            height: 200%;
+            background: linear-gradient(45deg, transparent, rgba(255,255,255,0.2), transparent);
+            transform: rotate(45deg);
+            animation: shimmer 3s infinite;
+        }
+
+        @keyframes shimmer {
+            0% { transform: translateX(-100%) rotate(45deg); }
+            100% { transform: translateX(100%) rotate(45deg); }
+        }
+
+        .logo:hover .logo-icon {
+            transform: rotate(0deg) scale(1.1);
+        }
+
+        .logo-text {
+            display: flex;
+            flex-direction: column;
+        }
+
+        .logo-main {
+            font-size: 24px;
+            font-weight: 900;
+            background: linear-gradient(135deg, #fff, #e2e8f0);
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+            letter-spacing: -0.5px;
+        }
+
+        .logo-sub {
+            font-size: 12px;
+            color: var(--gray);
+            letter-spacing: 1px;
+        }
+
+        /* شريط بحث متقدم */
+        .search-wrapper {
+            flex: 1;
+            max-width: 550px;
+            margin: 0 25px;
+            position: relative;
+        }
+
+        .search-box {
+            position: relative;
+        }
+
+        .search-box input {
+            width: 100%;
+            padding: 14px 25px 14px 55px;
+            border: none;
+            border-radius: 50px;
+            background: rgba(255, 255, 255, 0.1);
+            backdrop-filter: blur(5px);
+            color: white;
+            font-family: var(--font-main);
+            font-size: 16px;
+            border: 2px solid transparent;
+            transition: var(--transition);
+        }
+
+        .search-box input:focus {
+            outline: none;
+            border-color: var(--primary);
+            background: rgba(255, 255, 255, 0.15);
+            box-shadow: 0 0 0 4px rgba(59, 130, 246, 0.3);
+        }
+
+        .search-box input::placeholder {
+            color: rgba(255, 255, 255, 0.6);
+            font-weight: 400;
+        }
+
+        .search-box button {
+            position: absolute;
+            left: 15px;
+            top: 50%;
+            transform: translateY(-50%);
+            background: none;
+            border: none;
+            color: white;
+            cursor: pointer;
+            font-size: 20px;
+            opacity: 0.8;
+            transition: var(--transition);
+        }
+
+        .search-box button:hover {
+            opacity: 1;
+            transform: translateY(-50%) scale(1.1);
+        }
+
+        .search-suggestions {
+            position: absolute;
+            top: 100%;
+            left: 0;
+            right: 0;
+            background: rgba(15, 23, 42, 0.95);
+            backdrop-filter: blur(10px);
+            border-radius: 25px;
+            margin-top: 10px;
+            padding: 15px;
+            border: 1px solid rgba(255, 255, 255, 0.1);
+            display: none;
+            z-index: 100;
+        }
+
+        .search-box input:focus + .search-suggestions,
+        .search-suggestions:hover {
+            display: block;
+        }
+
+        /* ========== القائمة الرئيسية المتطورة ========== */
+        .nav-menu {
+            background: rgba(15, 23, 42, 0.7);
+            backdrop-filter: blur(15px);
+            -webkit-backdrop-filter: blur(15px);
+            border-bottom: 1px solid rgba(255, 255, 255, 0.1);
+            position: fixed;
+            top: var(--header-height);
+            left: 0;
+            right: 0;
+            z-index: 999;
+            height: var(--nav-height);
+            box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
+        }
+
+        .nav-container {
+            max-width: 1400px;
+            margin: 0 auto;
+            padding: 0 25px;
+            height: 100%;
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+        }
+
+        .nav-list {
+            display: flex;
+            list-style: none;
+            gap: 8px;
+            height: 100%;
+            align-items: center;
+            flex-wrap: wrap;
+        }
+
+        .nav-item {
+            height: 100%;
+            display: flex;
+            align-items: center;
+        }
+
+        .nav-link {
+            display: flex;
+            align-items: center;
+            gap: 8px;
+            padding: 0 20px;
+            height: 45px;
+            color: rgba(255, 255, 255, 0.8);
+            text-decoration: none;
+            font-weight: 600;
+            font-size: 15px;
+            border-radius: 30px;
+            transition: var(--transition);
+            background: transparent;
+            border: 1px solid transparent;
+            white-space: nowrap;
+        }
+
+        .nav-link i {
+            font-size: 16px;
+            transition: var(--transition);
+        }
+
+        .nav-link:hover {
+            background: rgba(255, 255, 255, 0.1);
+            border-color: rgba(255, 255, 255, 0.2);
+            color: white;
+            transform: translateY(-2px);
+        }
+
+        .nav-link.active {
+            background: linear-gradient(135deg, var(--primary), var(--secondary));
+            color: white;
+            border-color: transparent;
+            box-shadow: 0 10px 20px -5px rgba(59, 130, 246, 0.5);
+        }
+
+        .nav-link.active i {
+            color: white;
+        }
+
+        /* ========== المحتوى الرئيسي ========== */
+        .main-content {
+            padding-top: calc(var(--header-height) + var(--nav-height) + 30px);
+            min-height: 100vh;
+        }
+
+        /* شبكة متقدمة */
+        .advanced-grid {
+            display: grid;
+            grid-template-columns: 280px 1fr 280px;
+            gap: 30px;
+        }
+
+        /* ========== الأعمدة الجانبية المتطورة ========== */
+        .sidebar {
+            background: rgba(15, 23, 42, 0.6);
+            backdrop-filter: blur(12px);
+            -webkit-backdrop-filter: blur(12px);
+            border-radius: 30px;
+            padding: 25px 20px;
+            border: 1px solid rgba(255, 255, 255, 0.1);
+            position: sticky;
+            top: calc(var(--header-height) + var(--nav-height) + 30px);
+            height: fit-content;
+            max-height: calc(100vh - 180px);
+            overflow-y: auto;
+            box-shadow: var(--shadow-lg);
+        }
+
+        /* تخصيص شريط التمرير */
+        .sidebar::-webkit-scrollbar {
+            width: 5px;
+        }
+
+        .sidebar::-webkit-scrollbar-track {
+            background: rgba(255, 255, 255, 0.05);
+            border-radius: 10px;
+        }
+
+        .sidebar::-webkit-scrollbar-thumb {
+            background: linear-gradient(135deg, var(--primary), var(--secondary));
+            border-radius: 10px;
+        }
+
+        .sidebar-widget {
+            margin-bottom: 30px;
+        }
+
+        .sidebar-widget:last-child {
+            margin-bottom: 0;
+        }
+
+        .widget-title {
+            display: flex;
+            align-items: center;
+            gap: 10px;
+            font-size: 18px;
+            font-weight: 700;
+            margin-bottom: 20px;
+            padding-bottom: 12px;
+            border-bottom: 2px solid;
+            border-image: linear-gradient(90deg, var(--primary), var(--secondary), transparent) 1;
+        }
+
+        .widget-title i {
+            color: var(--primary);
+            font-size: 20px;
+        }
+
+        /* قائمة جانبية متطورة */
+        .category-list {
+            list-style: none;
+        }
+
+        .category-item {
+            margin-bottom: 10px;
+        }
+
+        .category-link {
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            padding: 12px 18px;
+            background: rgba(255, 255, 255, 0.03);
+            border: 1px solid rgba(255, 255, 255, 0.05);
+            border-radius: 18px;
+            color: rgba(255, 255, 255, 0.8);
+            text-decoration: none;
+            transition: var(--transition);
+            font-weight: 500;
+        }
+
+        .category-link:hover {
+            background: linear-gradient(135deg, var(--primary), var(--secondary));
+            border-color: transparent;
+            transform: translateX(-8px) scale(1.02);
+            color: white;
+            box-shadow: 0 10px 20px -8px var(--primary);
+        }
+
+        .category-link span {
+            display: flex;
+            align-items: center;
+            gap: 10px;
+        }
+
+        .category-count {
+            background: rgba(255, 255, 255, 0.1);
+            padding: 4px 10px;
+            border-radius: 30px;
+            font-size: 12px;
+            font-weight: 600;
+        }
+
+        .category-link:hover .category-count {
+            background: rgba(255, 255, 255, 0.2);
+        }
+
+        /* بطاقات المقالات المتطورة */
+        .posts-grid {
+            display: flex;
+            flex-direction: column;
+            gap: 30px;
+        }
+
+        .post-card {
+            background: rgba(15, 23, 42, 0.6);
+            backdrop-filter: blur(12px);
+            -webkit-backdrop-filter: blur(12px);
+            border-radius: 35px;
+            overflow: hidden;
+            border: 1px solid rgba(255, 255, 255, 0.1);
+            transition: var(--transition);
+            box-shadow: var(--shadow);
+            animation: cardAppear 0.6s ease;
+        }
+
+        @keyframes cardAppear {
+            from {
+                opacity: 0;
+                transform: translateY(30px);
+            }
+            to {
+                opacity: 1;
+                transform: translateY(0);
+            }
+        }
+
+        .post-card:hover {
+            transform: translateY(-8px) scale(1.01);
+            box-shadow: var(--shadow-hover);
+            border-color: var(--primary-light);
+        }
+
+        /* رأس البطاقة */
+        .post-header {
+            padding: 25px 25px 15px;
+            display: flex;
+            align-items: center;
+            gap: 18px;
+            border-bottom: 1px solid rgba(255, 255, 255, 0.1);
+        }
+
+        .post-avatar {
+            width: 60px;
+            height: 60px;
+            background: linear-gradient(145deg, var(--primary), var(--secondary));
+            border-radius: 20px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            font-size: 28px;
+            color: white;
+            box-shadow: 0 10px 20px -5px rgba(59, 130, 246, 0.4);
+            transition: var(--transition);
+        }
+
+        .post-card:hover .post-avatar {
+            transform: rotate(5deg) scale(1.1);
+        }
+
+        .post-meta {
+            flex: 1;
+        }
+
+        .post-author {
+            font-size: 18px;
+            font-weight: 700;
+            margin-bottom: 5px;
+            display: flex;
+            align-items: center;
+            gap: 8px;
+        }
+
+        .verified-badge {
+            color: var(--primary);
+            font-size: 16px;
+        }
+
+        .post-date {
+            display: flex;
+            align-items: center;
+            gap: 8px;
+            font-size: 14px;
+            color: var(--gray);
+        }
+
+        .post-categories {
+            display: flex;
+            gap: 8px;
+            flex-wrap: wrap;
+        }
+
+        .post-category {
+            background: rgba(255, 255, 255, 0.1);
+            padding: 4px 12px;
+            border-radius: 50px;
+            font-size: 12px;
+            font-weight: 600;
+            color: var(--gray-light);
+        }
+
+        /* محتوى البطاقة */
+        .post-content {
+            padding: 15px 25px 20px;
+        }
+
+        .post-title {
+            font-size: 26px;
+            font-weight: 800;
+            margin-bottom: 15px;
+            line-height: 1.4;
+        }
+
+        .post-title a {
+            color: white;
+            text-decoration: none;
+            background: linear-gradient(135deg, #fff, #e2e8f0);
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+            transition: var(--transition);
+        }
+
+        .post-title a:hover {
+            background: linear-gradient(135deg, var(--primary-light), var(--secondary));
+            -webkit-background-clip: text;
+        }
+
+        .post-image-wrapper {
+            position: relative;
+            border-radius: 25px;
+            overflow: hidden;
+            margin: 15px 0;
+            box-shadow: var(--shadow);
+        }
+
+        .post-image {
+            width: 100%;
+            max-height: 450px;
+            object-fit: cover;
+            transition: var(--transition);
+            display: block;
+        }
+
+        .post-image-wrapper:hover .post-image {
+            transform: scale(1.05);
+        }
+
+        .image-overlay {
+            position: absolute;
+            top: 0;
+            left: 0;
+            right: 0;
+            bottom: 0;
+            background: linear-gradient(180deg, transparent 0%, rgba(0,0,0,0.4) 100%);
+            opacity: 0;
+            transition: var(--transition);
+            display: flex;
+            align-items: flex-end;
+            padding: 20px;
+        }
+
+        .post-image-wrapper:hover .image-overlay {
+            opacity: 1;
+        }
+
+        .post-summary {
+            font-size: 16px;
+            line-height: 1.9;
+            color: rgba(255, 255, 255, 0.8);
+            margin: 15px 0;
+        }
+
+        /* تذييل البطاقة */
+        .post-footer {
+            padding: 15px 25px;
+            border-top: 1px solid rgba(255, 255, 255, 0.1);
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            background: rgba(0, 0, 0, 0.1);
+        }
+
+        .post-stats {
+            display: flex;
+            gap: 20px;
+        }
+
+        .post-stat {
+            display: flex;
+            align-items: center;
+            gap: 6px;
+            font-size: 14px;
+            color: var(--gray);
+        }
+
+        .post-stat i {
+            color: var(--primary);
+        }
+
+        .post-actions {
+            display: flex;
+            gap: 10px;
+        }
+
+        .action-btn {
+            width: 40px;
+            height: 40px;
+            border-radius: 12px;
+            background: rgba(255, 255, 255, 0.05);
+            border: 1px solid rgba(255, 255, 255, 0.1);
+            color: white;
+            cursor: pointer;
+            transition: var(--transition);
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            font-size: 18px;
+        }
+
+        .action-btn:hover {
+            background: linear-gradient(135deg, var(--primary), var(--secondary));
+            border-color: transparent;
+            transform: translateY(-3px);
+        }
+
+        .read-more-btn {
+            padding: 10px 25px;
+            background: linear-gradient(135deg, var(--primary), var(--secondary));
+            color: white;
+            text-decoration: none;
+            border-radius: 30px;
+            font-weight: 600;
+            font-size: 14px;
+            display: inline-flex;
+            align-items: center;
+            gap: 8px;
+            transition: var(--transition);
+        }
+
+        .read-more-btn:hover {
+            transform: translateX(-5px);
+            box-shadow: 0 10px 20px -5px var(--primary);
+        }
+
+        /* ========== نظام التبويبات المتطور ========== */
+        .tabs-advanced {
+            background: rgba(15, 23, 42, 0.6);
+            backdrop-filter: blur(12px);
+            border-radius: 40px;
+            overflow: hidden;
+            border: 1px solid rgba(255, 255, 255, 0.1);
+            margin-bottom: 30px;
+        }
+
+        .tabs-header-advanced {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 5px;
+            padding: 20px;
+            background: rgba(0, 0, 0, 0.2);
+            border-bottom: 1px solid rgba(255, 255, 255, 0.1);
+        }
+
+        .tab-btn-advanced {
+            padding: 14px 25px;
+            background: rgba(255, 255, 255, 0.03);
+            border: 1px solid rgba(255, 255, 255, 0.1);
+            border-radius: 50px;
+            color: rgba(255, 255, 255, 0.7);
+            font-family: var(--font-main);
+            font-weight: 600;
+            font-size: 14px;
+            cursor: pointer;
+            transition: var(--transition);
+            display: flex;
+            align-items: center;
+            gap: 8px;
+            flex: 1;
+            min-width: 120px;
+            justify-content: center;
+        }
+
+        .tab-btn-advanced:hover {
+            background: rgba(255, 255, 255, 0.1);
+            transform: translateY(-2px);
+        }
+
+        .tab-btn-advanced.active {
+            background: linear-gradient(135deg, var(--primary), var(--secondary));
+            color: white;
+            border-color: transparent;
+            box-shadow: 0 10px 20px -8px var(--primary);
+        }
+
+        .tab-btn-advanced i {
+            font-size: 16px;
+        }
+
+        .tab-panel-advanced {
+            padding: 30px;
+            min-height: 400px;
+        }
+
+        /* ========== خريطة الموقع المتطورة ========== */
+        .sitemap-section {
+            background: rgba(15, 23, 42, 0.6);
+            backdrop-filter: blur(12px);
+            border-radius: 40px;
+            padding: 30px;
+            border: 1px solid rgba(255, 255, 255, 0.1);
+            margin-top: 30px;
+        }
+
+        .section-header {
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            margin-bottom: 25px;
+        }
+
+        .section-header h3 {
+            font-size: 24px;
+            font-weight: 800;
+            display: flex;
+            align-items: center;
+            gap: 12px;
+        }
+
+        .view-all {
+            color: var(--primary);
+            text-decoration: none;
+            font-weight: 600;
+            display: flex;
+            align-items: center;
+            gap: 8px;
+        }
+
+        .sitemap-advanced {
+            display: grid;
+            grid-template-columns: repeat(auto-fill, minmax(240px, 1fr));
+            gap: 20px;
+        }
+
+        .sitemap-card {
+            background: rgba(255, 255, 255, 0.03);
+            border-radius: 25px;
+            overflow: hidden;
+            border: 1px solid rgba(255, 255, 255, 0.05);
+            text-decoration: none;
+            color: white;
+            transition: var(--transition);
+        }
+
+        .sitemap-card:hover {
+            transform: translateY(-8px);
+            background: linear-gradient(135deg, var(--primary), var(--secondary));
+            border-color: transparent;
+        }
+
+        .sitemap-card img {
+            width: 100%;
+            height: 160px;
+            object-fit: cover;
+            transition: var(--transition);
+        }
+
+        .sitemap-card:hover img {
+            transform: scale(1.1);
+        }
+
+        .sitemap-card h4 {
+            padding: 18px;
+            font-size: 16px;
+            font-weight: 600;
+            line-height: 1.5;
+        }
+
+        /* ========== نظام تحميل المزيد المتطور ========== */
+        .load-more-advanced {
+            text-align: center;
+            margin: 40px 0;
+        }
+
+        .load-more-btn-advanced {
+            background: linear-gradient(135deg, var(--primary), var(--secondary));
+            color: white;
+            border: none;
+            padding: 18px 60px;
+            border-radius: 60px;
+            font-family: var(--font-main);
+            font-weight: 700;
+            font-size: 18px;
+            cursor: pointer;
+            transition: var(--transition);
+            border: 1px solid rgba(255, 255, 255, 0.2);
+            position: relative;
+            overflow: hidden;
+            display: inline-flex;
+            align-items: center;
+            gap: 15px;
+            box-shadow: 0 20px 30px -10px var(--primary-dark);
+        }
+
+        .load-more-btn-advanced::before {
+            content: '';
+            position: absolute;
+            top: 0;
+            left: -100%;
+            width: 100%;
+            height: 100%;
+            background: linear-gradient(90deg, transparent, rgba(255, 255, 255, 0.3), transparent);
+            animation: loadingShimmer 2s infinite;
+        }
+
+        @keyframes loadingShimmer {
+            100% { left: 100%; }
+        }
+
+        .load-more-btn-advanced:hover:not(:disabled) {
+            transform: translateY(-5px) scale(1.02);
+            box-shadow: 0 30px 40px -15px var(--primary-dark);
+        }
+
+        .load-more-btn-advanced:disabled {
+            opacity: 0.6;
+            cursor: not-allowed;
+        }
+
+        .load-more-btn-advanced i {
+            font-size: 20px;
+            animation: spin 1s linear infinite;
+        }
+
+        @keyframes spin {
+            100% { transform: rotate(360deg); }
+        }
+
+        /* ========== النشرة البريدية المتطورة ========== */
+        .newsletter-widget {
+            background: linear-gradient(145deg, var(--primary), var(--secondary));
+            padding: 25px;
+            border-radius: 30px;
+            margin-top: 25px;
+        }
+
+        .newsletter-widget h4 {
+            font-size: 20px;
+            margin-bottom: 15px;
+            display: flex;
+            align-items: center;
+            gap: 10px;
+        }
+
+        .newsletter-input-group {
+            display: flex;
+            flex-direction: column;
+            gap: 12px;
+        }
+
+        .newsletter-input-group input {
+            padding: 16px 20px;
+            border: none;
+            border-radius: 20px;
+            font-family: var(--font-main);
+            font-size: 15px;
+            background: rgba(255, 255, 255, 0.9);
+        }
+
+        .newsletter-input-group button {
+            padding: 16px;
+            background: var(--dark);
+            color: white;
+            border: none;
+            border-radius: 20px;
+            font-weight: 700;
+            cursor: pointer;
+            transition: var(--transition);
+        }
+
+        .newsletter-input-group button:hover {
+            background: black;
+            transform: translateY(-2px);
+        }
+
+        /* ========== الفوتر المتطور ========== */
+        .footer-advanced {
+            background: rgba(15, 23, 42, 0.8);
+            backdrop-filter: blur(15px);
+            margin-top: 60px;
+            padding: 60px 0 30px;
+            border-top: 1px solid rgba(255, 255, 255, 0.1);
+        }
+
+        .footer-grid-advanced {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+            gap: 40px;
+            margin-bottom: 50px;
+        }
+
+        .footer-col-advanced h4 {
+            font-size: 20px;
+            font-weight: 700;
+            margin-bottom: 25px;
+            position: relative;
+            padding-bottom: 12px;
+        }
+
+        .footer-col-advanced h4::after {
+            content: '';
+            position: absolute;
+            bottom: 0;
+            right: 0;
+            width: 50px;
+            height: 3px;
+            background: linear-gradient(90deg, var(--primary), var(--secondary));
+            border-radius: 3px;
+        }
+
+        .footer-links-advanced {
+            list-style: none;
+        }
+
+        .footer-links-advanced li {
+            margin-bottom: 14px;
+        }
+
+        .footer-links-advanced a {
+            color: rgba(255, 255, 255, 0.7);
+            text-decoration: none;
+            transition: var(--transition);
+            display: flex;
+            align-items: center;
+            gap: 10px;
+        }
+
+        .footer-links-advanced a:hover {
+            color: white;
+            transform: translateX(-8px);
+        }
+
+        .social-links-advanced {
+            display: flex;
+            gap: 15px;
+            margin-top: 25px;
+            flex-wrap: wrap;
+        }
+
+        .social-link-advanced {
+            width: 50px;
+            height: 50px;
+            background: rgba(255, 255, 255, 0.05);
+            border: 1px solid rgba(255, 255, 255, 0.1);
+            border-radius: 18px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            color: white;
+            text-decoration: none;
+            font-size: 22px;
+            transition: var(--transition);
+        }
+
+        .social-link-advanced:hover {
+            background: linear-gradient(135deg, var(--primary), var(--secondary));
+            border-color: transparent;
+            transform: translateY(-5px) rotate(5deg);
+        }
+
+        .copyright-advanced {
+            text-align: center;
+            padding-top: 30px;
+            border-top: 1px solid rgba(255, 255, 255, 0.1);
+            color: rgba(255, 255, 255, 0.6);
+            font-size: 14px;
+        }
+
+        /* ========== زر العودة للأعلى المتطور ========== */
+        .back-to-top-advanced {
+            position: fixed;
+            bottom: 40px;
+            left: 40px;
+            width: 65px;
+            height: 65px;
+            background: linear-gradient(135deg, var(--primary), var(--secondary));
+            border-radius: 50%;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            color: white;
+            text-decoration: none;
+            font-size: 28px;
+            opacity: 0;
+            visibility: hidden;
+            transition: var(--transition);
+            z-index: 9999;
+            border: 1px solid rgba(255, 255, 255, 0.3);
+            box-shadow: 0 20px 30px -10px var(--primary-dark);
+        }
+
+        .back-to-top-advanced.visible {
+            opacity: 1;
+            visibility: visible;
+        }
+
+        .back-to-top-advanced:hover {
+            transform: translateY(-10px) scale(1.1);
+        }
+
+        /* ========== مؤشرات التحميل ========== */
+        .loading-advanced {
+            text-align: center;
+            padding: 50px;
+            font-size: 18px;
+        }
+
+        .loading-spinner {
+            display: inline-block;
+            width: 50px;
+            height: 50px;
+            border: 4px solid rgba(255, 255, 255, 0.1);
+            border-left-color: var(--primary);
+            border-right-color: var(--secondary);
+            border-radius: 50%;
+            animation: spinner 1s linear infinite;
+        }
+
+        @keyframes spinner {
+            to { transform: rotate(360deg); }
+        }
+
+        /* ========== تحسينات للشاشات الصغيرة ========== */
+        @media (max-width: 1200px) {
+            .advanced-grid {
+                grid-template-columns: 250px 1fr 250px;
+                gap: 20px;
+            }
+        }
+
+        @media (max-width: 992px) {
+            .advanced-grid {
+                grid-template-columns: 1fr;
+            }
+            
+            .sidebar {
+                display: none;
+            }
+            
+            .search-wrapper {
+                max-width: 350px;
+            }
+        }
+
+        @media (max-width: 768px) {
+            :root {
+                --header-height: 60px;
+                --nav-height: 50px;
+            }
+
+            .logo-main {
+                font-size: 18px;
+            }
+            
+            .logo-sub {
+                display: none;
+            }
+            
+            .search-wrapper {
+                display: none;
+            }
+            
+            .nav-link span {
+                display: none;
+            }
+            
+            .nav-link i {
+                font-size: 20px;
+            }
+            
+            .post-title {
+                font-size: 20px;
+            }
+            
+            .post-footer {
+                flex-direction: column;
+                gap: 15px;
+            }
+            
+            .post-stats {
+                width: 100%;
+                justify-content: center;
+            }
+            
+            .tabs-header-advanced {
+                flex-direction: column;
+            }
+            
+            .tab-btn-advanced {
+                width: 100%;
+            }
+            
+            .sitemap-advanced {
+                grid-template-columns: 1fr;
+            }
+        }
+
+        @media (max-width: 480px) {
+            .container {
+                padding: 0 15px;
+            }
+            
+            .post-header {
+                flex-direction: column;
+                text-align: center;
+            }
+            
+            .post-actions {
+                width: 100%;
+                justify-content: center;
+            }
+            
+            .load-more-btn-advanced {
+                padding: 15px 30px;
+                font-size: 16px;
+            }
+            
+            .back-to-top-advanced {
+                width: 50px;
+                height: 50px;
+                font-size: 22px;
+                bottom: 20px;
+                left: 20px;
+            }
+        }
+    </style>
+</head>
+<body>
+
+<!-- الهيدر المتطور -->
+<header class="header">
+    <div class="container">
+        <a href="https://greatxenforo.blogspot.com/" class="logo">
+            <div class="logo-icon">
+                <i class="fas fa-code"></i>
+            </div>
+            <div class="logo-text">
+                <span class="logo-main">مدونة العرائش التقنية</span>
+                <span class="logo-sub">بوابتك لعالم التقنية</span>
+            </div>
+        </a>
+
+        <div class="search-wrapper">
+            <div class="search-box">
+                <form action="https://greatxenforo.blogspot.com/search" method="get" id="searchForm">
+                    <input type="text" name="q" id="searchInput" placeholder="ابحث عن آلاف المقالات والشروحات...">
+                    <button type="submit"><i class="fas fa-search"></i></button>
+                </form>
+                <div class="search-suggestions" id="searchSuggestions"></div>
+            </div>
+        </div>
+    </div>
+</header>
+
+<!-- القائمة المتطورة -->
+<nav class="nav-menu">
+    <div class="nav-container">
+        <ul class="nav-list" id="mainNav">
+            <li class="nav-item"><a href="https://greatxenforo.blogspot.com/" class="nav-link active"><i class="fas fa-home"></i><span>الرئيسية</span></a></li>
+            <li class="nav-item"><a href="https://greatxenforo.blogspot.com/search/label/SEO" class="nav-link"><i class="fas fa-chart-line"></i><span>SEO</span></a></li>
+            <li class="nav-item"><a href="https://greatxenforo.blogspot.com/search/label/%D9%88%D9%88%D8%B1%D8%AF%D8%A8%D8%B1%D9%8A%D8%B3" class="nav-link"><i class="fab fa-wordpress"></i><span>ووردبريس</span></a></li>
+            <li class="nav-item"><a href="https://greatxenforo.blogspot.com/search/label/%D8%A8%D9%84%D9%88%D8%AC%D8%B1" class="nav-link"><i class="fab fa-blogger"></i><span>بلوجر</span></a></li>
+            <li class="nav-item"><a href="https://greatxenforo.blogspot.com/search/label/%D8%A8%D8%B1%D9%85%D8%AC%D8%A9" class="nav-link"><i class="fas fa-code"></i><span>برمجة</span></a></li>
+            <li class="nav-item"><a href="https://greatxenforo.blogspot.com/search/label/%D8%A7%D8%B3%D8%AA%D8%B6%D8%A7%D9%81%D8%A9" class="nav-link"><i class="fas fa-server"></i><span>استضافة</span></a></li>
+            <li class="nav-item"><a href="https://greatxenforo.blogspot.com/search/label/%D8%A3%D8%AF%D8%B3%D9%86%D8%B3" class="nav-link"><i class="fab fa-google"></i><span>أدسنس</span></a></li>
+            <li class="nav-item"><a href="https://greatxenforo.blogspot.com/search/label/%D8%B4%D8%B1%D9%88%D8%AD%D8%A7%D8%AA" class="nav-link"><i class="fas fa-graduation-cap"></i><span>شروحات</span></a></li>
+        </ul>
+    </div>
+</nav>
+
+<!-- المحتوى الرئيسي -->
+<main class="main-content">
+    <div class="container">
+        <div class="advanced-grid">
+            <!-- الشريط الجانبي الأيمن -->
+            <aside class="sidebar" id="rightSidebar">
+                <div class="sidebar-widget">
+                    <h3 class="widget-title"><i class="fas fa-folder-tree"></i> التصنيفات الرئيسية</h3>
+                    <ul class="category-list" id="categoryList">
+                        <li class="category-item">
+                            <a href="#" class="category-link" onclick="filterByCategory('all'); return false;">
+                                <span><i class="fas fa-globe"></i> جميع المقالات</span>
+                                <span class="category-count" id="totalCount">0</span>
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+
+                <div class="sidebar-widget">
+                    <h3 class="widget-title"><i class="fas fa-fire"></i> الأكثر قراءة</h3>
+                    <ul class="category-list" id="popularList"></ul>
+                </div>
+
+                <div class="sidebar-widget">
+                    <h3 class="widget-title"><i class="fas fa-calendar"></i> الأرشيف</h3>
+                    <ul class="category-list" id="archiveList"></ul>
+                </div>
+            </aside>
+
+            <!-- العمود الأوسط - المقالات -->
+            <div class="posts-grid">
+                <!-- بطاقة ترحيبية -->
+                <div class="post-card">
+                    <div class="post-header">
+                        <div class="post-avatar">
+                            <i class="fas fa-robot"></i>
+                        </div>
+                        <div class="post-meta">
+                            <div class="post-author">
+                                مدونة العرائش التقنية
+                                <i class="fas fa-check-circle verified-badge"></i>
+                            </div>
+                            <div class="post-date">
+                                <i class="far fa-calendar-alt"></i> أحدث التحديثات 2024
+                                <span class="post-category">رسمي</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="post-content">
+                        <h2 class="post-title">مرحباً بكم في أكبر منصة عربية للشروحات التقنية</h2>
+                        <div class="post-summary">
+                            تضم مدونة العرائش التقنية أكثر من 1000 مقال حصري في مجالات تحسين محركات البحث (SEO)، ووردبريس، بلوجر، البرمجة، استضافة المواقع، وأرباح أدسنس. انضم إلى أكثر من 50,000 متابع عربي واستفد من المحتوى المتطور.
+                        </div>
+                    </div>
+                    <div class="post-footer">
+                        <div class="post-stats">
+                            <span class="post-stat"><i class="fas fa-eye"></i> 15.2K</span>
+                            <span class="post-stat"><i class="fas fa-heart"></i> 2.1K</span>
+                            <span class="post-stat"><i class="fas fa-comment"></i> 347</span>
+                        </div>
+                        <div class="post-actions">
+                            <button class="action-btn"><i class="far fa-heart"></i></button>
+                            <button class="action-btn"><i class="far fa-bookmark"></i></button>
+                            <button class="action-btn"><i class="fas fa-share-alt"></i></button>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- نظام التبويبات المتطور -->
+                <div class="tabs-advanced">
+                    <div class="tabs-header-advanced" id="tabsHeader">
+                        <!-- تضاف عن طريق JS -->
+                    </div>
+                    <div class="tab-panel-advanced" id="tabPanel">
+                        <div class="loading-advanced">
+                            <div class="loading-spinner"></div>
+                            <p style="margin-top: 15px;">جاري تحميل أحدث المقالات...</p>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- زر تحميل المزيد -->
+                <div class="load-more-advanced" id="loadMoreContainer" style="display: none;">
+                    <button class="load-more-btn-advanced" id="loadMoreBtn" onclick="loadMorePosts()">
+                        <i class="fas fa-sync-alt"></i>
+                        <span>تحميل المزيد من المقالات</span>
+                    </button>
+                </div>
+            </div>
+
+            <!-- الشريط الجانبي الأيسر -->
+            <aside class="sidebar" id="leftSidebar">
+                <div class="sidebar-widget">
+                    <h3 class="widget-title"><i class="fas fa-star"></i> مقالات مختارة</h3>
+                    <ul class="category-list" id="featuredList"></ul>
+                </div>
+
+                <div class="sidebar-widget">
+                    <h3 class="widget-title"><i class="fas fa-tags"></i> الكلمات المفتاحية</h3>
+                    <div style="display: flex; flex-wrap: wrap; gap: 8px;" id="tagsList"></div>
+                </div>
+
+                <div class="newsletter-widget">
+                    <h4><i class="fas fa-envelope"></i> النشرة البريدية</h4>
+                    <form id="newsletterForm" onsubmit="handleNewsletter(event)">
+                        <div class="newsletter-input-group">
+                            <input type="email" placeholder="بريدك الإلكتروني" required>
+                            <button type="submit">اشترك الآن مجاناً</button>
+                        </div>
+                    </form>
+                </div>
+
+                <div class="sidebar-widget">
+                    <h3 class="widget-title"><i class="fas fa-hashtag"></i> تابعنا</h3>
+                    <div class="social-links-advanced">
+                        <a href="#" class="social-link-advanced"><i class="fab fa-facebook-f"></i></a>
+                        <a href="#" class="social-link-advanced"><i class="fab fa-twitter"></i></a>
+                        <a href="#" class="social-link-advanced"><i class="fab fa-youtube"></i></a>
+                        <a href="#" class="social-link-advanced"><i class="fab fa-instagram"></i></a>
+                        <a href="#" class="social-link-advanced"><i class="fab fa-linkedin-in"></i></a>
+                        <a href="#" class="social-link-advanced"><i class="fab fa-github"></i></a>
+                    </div>
+                </div>
+            </aside>
+        </div>
+
+        <!-- خريطة الموقع المتطورة -->
+        <section class="sitemap-section">
+            <div class="section-header">
+                <h3><i class="fas fa-sitemap"></i> أحدث المقالات المنشورة</h3>
+                <a href="https://greatxenforo.blogspot.com/sitemap.xml" class="view-all">عرض الكل <i class="fas fa-arrow-left"></i></a>
+            </div>
+            <div class="sitemap-advanced" id="sitemapGrid">
+                <!-- تضاف عن طريق JS -->
+            </div>
+        </section>
+    </div>
+</main>
+
+<!-- الفوتر المتطور -->
+<footer class="footer-advanced">
+    <div class="container">
+        <div class="footer-grid-advanced">
+            <div class="footer-col-advanced">
+                <h4>عن المدونة</h4>
+                <p style="opacity: 0.7; line-height: 1.9; margin-bottom: 20px;">مدونة العرائش التقنية: منصة عربية متكاملة تهدف لنشر المعرفة التقنية وتطوير المحتوى العربي في مجالات البرمجة والتسويق الإلكتروني.</p>
+                <div class="social-links-advanced">
+                    <a href="#" class="social-link-advanced"><i class="fab fa-facebook-f"></i></a>
+                    <a href="#" class="social-link-advanced"><i class="fab fa-twitter"></i></a>
+                    <a href="#" class="social-link-advanced"><i class="fab fa-youtube"></i></a>
+                </div>
+            </div>
+
+            <div class="footer-col-advanced">
+                <h4>روابط سريعة</h4>
+                <ul class="footer-links-advanced">
+                    <li><a href="https://greatxenforo.blogspot.com/"><i class="fas fa-chevron-left"></i> الصفحة الرئيسية</a></li>
+                    <li><a href="https://greatxenforo.blogspot.com/p/about-us.html"><i class="fas fa-chevron-left"></i> من نحن</a></li>
+                    <li><a href="https://greatxenforo.blogspot.com/p/contact-us.html"><i class="fas fa-chevron-left"></i> اتصل بنا</a></li>
+                    <li><a href="https://greatxenforo.blogspot.com/p/privacy-policy.html"><i class="fas fa-chevron-left"></i> سياسة الخصوصية</a></li>
+                </ul>
+            </div>
+
+            <div class="footer-col-advanced">
+                <h4>التصنيفات</h4>
+                <ul class="footer-links-advanced" id="footerCategories">
+                    <!-- تضاف عن طريق JS -->
+                </ul>
+            </div>
+
+            <div class="footer-col-advanced">
+
+            </div>
+    
+
+        <div class="copyright-advanced">
+            &copy; 2026 مدونة العرائش التقنية. جميع الحقوق محفوظة. تم التطوير بواسطة <span style="color: var(--primary);">عماد الدين لمراني</span>
+        </div>
+        </div>
+    </div>
+</footer>
+
+<!-- زر العودة للأعلى -->
+<a href="#" class="back-to-top-advanced" id="backToTop"><i class="fas fa-arrow-up"></i></a>
+
+<!-- سكريبت متطور -->
+<script>
+// ========== الإعدادات المتقدمة ==========
+const CONFIG = {
+    blogUrl: 'https://greatxenforo.blogspot.com',
+    postsPerPage: 5,
+    maxPosts: 500,
+    cacheTime: 30 * 60 * 1000, // 30 دقيقة
+    defaultCategory: 'all',
+    animationDuration: 500
+};
+
+// ========== المتغيرات العامة ==========
+let allPosts = [];
+let categories = [];
+let categoryCounts = {};
+let currentCategory = 'all';
+let currentPage = 0;
+let isLoading = false;
+let hasMore = true;
+
+// ========== دوال التحميل ==========
+async function loadBlogData() {
+    showLoading();
+    
+    // محاولة التحميل من الكاش
+    const cached = localStorage.getItem('blogData_v2');
+    const cachedTime = localStorage.getItem('blogDataTime');
+    
+    if (cached && cachedTime && (Date.now() - cachedTime < CONFIG.cacheTime)) {
+        try {
+            const data = JSON.parse(cached);
+            allPosts = data.posts;
+            categories = data.categories;
+            categoryCounts = data.counts;
+            processData();
+            return;
+        } catch (e) {
+            console.log('Cache error:', e);
+        }
+    }
+    
+    // تحميل جديد
+    const script = document.createElement('script');
+    script.src = `${CONFIG.blogUrl}/feeds/posts/summary?alt=json-in-script&max-results=${CONFIG.maxPosts}&callback=handleBlogData`;
+    document.head.appendChild(script);
+}
+
+window.handleBlogData = function(data) {
+    allPosts = data.feed.entry || [];
+    
+    // استخراج التصنيفات والإحصائيات
+    const categoryMap = new Map();
+    const counts = {};
+    
+    allPosts.forEach(post => {
+        if (post.category) {
+            post.category.forEach(cat => {
+                const term = cat.term;
+                categoryMap.set(term, cat);
+                counts[term] = (counts[term] || 0) + 1;
+            });
+        }
+    });
+    
+    categories = Array.from(categoryMap.values());
+    categoryCounts = counts;
+    
+    // تخزين في الكاش
+    try {
+        localStorage.setItem('blogData_v2', JSON.stringify({
+            posts: allPosts,
+            categories: categories,
+            counts: counts
+        }));
+        localStorage.setItem('blogDataTime', Date.now());
+    } catch (e) {}
+    
+    processData();
+};
+
+// ========== معالجة البيانات ==========
+function processData() {
+    updateTotalCount();
+    displayCategories();
+    displayTabs();
+    displayPosts(currentCategory, 0);
+    displaySitemap();
+    displayFeatured();
+    displayPopular();
+    displayArchive();
+    displayTags();
+    setupLoadMore();
+    hideLoading();
+}
+
+// ========== عرض التصنيفات ==========
+function displayCategories() {
+    const categoryList = document.getElementById('categoryList');
+    const footerCategories = document.getElementById('footerCategories');
+    
+    if (categoryList) {
+        let html = `<li class="category-item">
+            <a href="#" class="category-link active" onclick="filterByCategory('all'); return false;">
+                <span><i class="fas fa-globe"></i> جميع المقالات</span>
+                <span class="category-count">${allPosts.length}</span>
+            </a>
+        </li>`;
+        
+        categories.slice(0, 10).forEach(cat => {
+            html += `
+                <li class="category-item">
+                    <a href="#" class="category-link" onclick="filterByCategory('${cat.term}'); return false;">
+                        <span><i class="fas fa-folder"></i> ${cat.term}</span>
+                        <span class="category-count">${categoryCounts[cat.term] || 0}</span>
+                    </a>
+                </li>
+            `;
+        });
+        
+        categoryList.innerHTML = html;
+    }
+    
+    if (footerCategories) {
+        footerCategories.innerHTML = categories.slice(0, 5).map(cat => `
+            <li><a href="#" onclick="filterByCategory('${cat.term}'); return false;"><i class="fas fa-chevron-left"></i> ${cat.term}</a></li>
+        `).join('');
+    }
+}
+
+// ========== عرض التبويبات ==========
+function displayTabs() {
+    const tabsHeader = document.getElementById('tabsHeader');
+    
+    let html = `
+        <button class="tab-btn-advanced active" onclick="filterByCategory('all')">
+            <i class="fas fa-star"></i> الكل
+        </button>
+    `;
+    
+    categories.slice(0, 6).forEach(cat => {
+        html += `
+            <button class="tab-btn-advanced" onclick="filterByCategory('${cat.term}')">
+                <i class="fas fa-${getCategoryIcon(cat.term)}"></i> ${cat.term}
+            </button>
+        `;
+    });
+    
+    tabsHeader.innerHTML = html;
+}
+
+// ========== أيقونات التصنيفات ==========
+function getCategoryIcon(category) {
+    category = category.toLowerCase();
+    if (category.includes('seo') || category.includes('تحسين')) return 'chart-line';
+    if (category.includes('وردبريس')) return 'wordpress';
+    if (category.includes('بلوجر')) return 'blogger';
+    if (category.includes('برمجة')) return 'code';
+    if (category.includes('استضافة')) return 'server';
+    if (category.includes('أدسنس')) return 'google';
+    if (category.includes('شروحات')) return 'graduation-cap';
+    return 'folder';
+}
+
+// ========== تصفية حسب التصنيف ==========
+window.filterByCategory = function(category) {
+    currentCategory = category;
+    currentPage = 0;
+    hasMore = true;
+    
+    // تحديث الأزرار
+    document.querySelectorAll('.tab-btn-advanced, .category-link').forEach(btn => {
+        btn.classList.remove('active');
+    });
+    
+    document.querySelectorAll(`[onclick*="${category}"]`).forEach(btn => {
+        btn.classList.add('active');
+    });
+    
+    displayPosts(category, 0);
+};
+
+// ========== عرض المقالات ==========
+function displayPosts(category, page) {
+    const panel = document.getElementById('tabPanel');
+    const start = page * CONFIG.postsPerPage;
+    
+    let filteredPosts = category === 'all' 
+        ? allPosts 
+        : allPosts.filter(post => 
+            post.category && post.category.some(c => c.term === category)
+        );
+    
+    const postsToShow = filteredPosts.slice(start, start + CONFIG.postsPerPage);
+    
+    if (postsToShow.length === 0) {
+        if (page === 0) {
+            panel.innerHTML = '<div style="text-align: center; padding: 60px;">لا توجد مقالات في هذا التصنيف</div>';
+        }
+        hasMore = false;
+        updateLoadMoreButton();
+        return;
+    }
+    
+    let html = '';
+    postsToShow.forEach(post => {
+        html += createPostHTML(post);
+    });
+    
+    if (page === 0) {
+        panel.innerHTML = html;
+    } else {
+        panel.insertAdjacentHTML('beforeend', html);
+    }
+    
+    // تحديث حالة زر التحميل
+    hasMore = filteredPosts.length > (start + CONFIG.postsPerPage);
+    updateLoadMoreButton();
+    
+    // تأثيرات الظهور
+    setTimeout(() => {
+        document.querySelectorAll('.post-card').forEach((card, index) => {
+            card.style.animationDelay = `${index * 0.1}s`;
+        });
+    }, 100);
+}
+
+// ========== إنشاء HTML للمقالة ==========
+function createPostHTML(post) {
+    const title = post.title.$t;
+    const link = post.link.find(l => l.rel === 'alternate').href;
+    const published = new Date(post.published.$t);
+    const dateStr = published.toLocaleDateString('ar-EG', {
+        year: 'numeric',
+        month: 'long',
+        day: 'numeric'
+    });
+    
+    // استخراج الصورة
+    let image = '';
+    if (post.media$thumbnail) {
+        image = post.media$thumbnail.url.replace(/\/s\d+-c\//, '/s600-c/');
+    } else {
+        const content = post.content ? post.content.$t : '';
+        const imgMatch = content.match(/<img[^>]+src="([^">]+)"/);
+        if (imgMatch) {
+            image = imgMatch[1];
+        }
+    }
+    
+    // استخراج الملخص
+    let summary = '';
+    if (post.summary) {
+        summary = post.summary.$t.replace(/<[^>]*>/g, '').substring(0, 200);
+        if (summary.length >= 200) summary += '...';
+    }
+    
+    // استخراج التصنيفات
+    let postCategories = '';
+    if (post.category) {
+        postCategories = post.category.slice(0, 2).map(cat => 
+            `<span class="post-category">${cat.term}</span>`
+        ).join('');
+    }
+    
+    return `
+        <div class="post-card">
+            <div class="post-header">
+                <div class="post-avatar">
+                    <i class="fas fa-user-cog"></i>
+                </div>
+                <div class="post-meta">
+                    <div class="post-author">
+                        مدونة العرائش التقنية
+                        <i class="fas fa-check-circle verified-badge"></i>
+                    </div>
+                    <div class="post-date">
+                        <i class="far fa-calendar-alt"></i> ${dateStr}
+                        ${postCategories}
+                    </div>
+                </div>
+            </div>
+            
+            <div class="post-content">
+                <h3 class="post-title"><a href="${link}" target="_blank">${title}</a></h3>
+                
+                ${image ? `
+                <div class="post-image-wrapper">
+                    <img src="${image}" class="post-image" alt="${title}" loading="lazy">
+                    <div class="image-overlay">
+                        <a href="${link}" class="read-more-btn" target="_blank">
+                            <i class="fas fa-eye"></i> قراءة المقال كاملاً
+                        </a>
+                    </div>
+                </div>
+                ` : ''}
+                
+                <p class="post-summary">${summary}</p>
+            </div>
+            
+            <div class="post-footer">
+                <div class="post-stats">
+                    <span class="post-stat"><i class="fas fa-eye"></i> ${Math.floor(Math.random() * 1000) + 100}</span>
+                    <span class="post-stat"><i class="fas fa-heart"></i> ${Math.floor(Math.random() * 100) + 10}</span>
+                    <span class="post-stat"><i class="fas fa-comment"></i> ${Math.floor(Math.random() * 50) + 1}</span>
+                </div>
+                <div class="post-actions">
+                    <a href="${link}" class="read-more-btn" target="_blank">
+                        <i class="fas fa-arrow-left"></i> اقرأ المزيد
+                    </a>
+                </div>
+            </div>
+        </div>
+    `;
+}
+
+// ========== إعداد زر تحميل المزيد ==========
+function setupLoadMore() {
+    const container = document.getElementById('loadMoreContainer');
+    if (container) {
+        container.style.display = 'block';
+    }
+}
+
+function updateLoadMoreButton() {
+    const btn = document.getElementById('loadMoreBtn');
+    const container = document.getElementById('loadMoreContainer');
+    
+    if (!btn || !container) return;
+    
+    if (hasMore) {
+        container.style.display = 'block';
+        btn.disabled = false;
+        btn.innerHTML = '<i class="fas fa-sync-alt"></i><span>تحميل المزيد من المقالات</span>';
+    } else {
+        container.style.display = 'none';
+    }
+}
+
+window.loadMorePosts = function() {
+    if (isLoading || !hasMore) return;
+    
+    isLoading = true;
+    const btn = document.getElementById('loadMoreBtn');
+    btn.disabled = true;
+    btn.innerHTML = '<i class="fas fa-spinner"></i><span>جاري التحميل...</span>';
+    
+    setTimeout(() => {
+        currentPage++;
+        displayPosts(currentCategory, currentPage);
+        isLoading = false;
+    }, 500);
+};
+
+// ========== عرض خريطة الموقع ==========
+function displaySitemap() {
+    const grid = document.getElementById('sitemapGrid');
+    
+    if (!grid || allPosts.length === 0) return;
+    
+    let html = '';
+    allPosts.slice(0, 6).forEach(post => {
+        const title = post.title.$t;
+        const link = post.link.find(l => l.rel === 'alternate').href;
+        
+        let image = 'https://via.placeholder.com/300x200?text=مدونة+العرائش';
+        if (post.media$thumbnail) {
+            image = post.media$thumbnail.url.replace(/\/s\d+-c\//, '/s300-c/');
+        }
+        
+        html += `
+            <a href="${link}" class="sitemap-card" target="_blank">
+                <img src="${image}" alt="${title}" loading="lazy">
+                <h4>${title.substring(0, 40)}${title.length > 40 ? '...' : ''}</h4>
+            </a>
+        `;
+    });
+    
+    grid.innerHTML = html;
+}
+
+// ========== عرض المقالات المميزة ==========
+function displayFeatured() {
+    const list = document.getElementById('featuredList');
+    
+    if (!list || allPosts.length === 0) return;
+    
+    let html = '';
+    allPosts.slice(0, 5).forEach((post, index) => {
+        const title = post.title.$t;
+        const link = post.link.find(l => l.rel === 'alternate').href;
+        
+        html += `
+            <li class="category-item">
+                <a href="${link}" class="category-link" target="_blank">
+                    <span><i class="fas fa-star" style="color: #fbbf24;"></i> ${title.substring(0, 30)}...</span>
+                </a>
+            </li>
+        `;
+    });
+    
+    list.innerHTML = html;
+}
+
+// ========== عرض الأكثر قراءة ==========
+function displayPopular() {
+    const list = document.getElementById('popularList');
+    
+    if (!list || allPosts.length === 0) return;
+    
+    // ترتيب عشوائي لمحاكاة الأكثر قراءة
+    const shuffled = [...allPosts].sort(() => 0.5 - Math.random());
+    
+    let html = '';
+    shuffled.slice(0, 5).forEach((post, index) => {
+        const title = post.title.$t;
+        const link = post.link.find(l => l.rel === 'alternate').href;
+        
+        html += `
+            <li class="category-item">
+                <a href="${link}" class="category-link" target="_blank">
+                    <span><i class="fas fa-fire" style="color: #ef4444;"></i> ${title.substring(0, 30)}...</span>
+                </a>
+            </li>
+        `;
+    });
+    
+    list.innerHTML = html;
+}
+
+// ========== عرض الأرشيف ==========
+function displayArchive() {
+    const list = document.getElementById('archiveList');
+    
+    if (!list || allPosts.length === 0) return;
+    
+    // تجميع حسب الشهر
+    const months = {};
+    allPosts.forEach(post => {
+        const date = new Date(post.published.$t);
+        const monthYear = date.toLocaleDateString('ar-EG', { year: 'numeric', month: 'long' });
+        months[monthYear] = (months[monthYear] || 0) + 1;
+    });
+    
+    let html = '';
+    Object.entries(months).slice(0, 6).forEach(([month, count]) => {
+        html += `
+            <li class="category-item">
+                <a href="#" class="category-link" onclick="return false;">
+                    <span><i class="fas fa-calendar-alt"></i> ${month}</span>
+                    <span class="category-count">${count}</span>
+                </a>
+            </li>
+        `;
+    });
+    
+    list.innerHTML = html;
+}
+
+// ========== عرض الكلمات المفتاحية ==========
+function displayTags() {
+    const container = document.getElementById('tagsList');
+    
+    if (!container || allPosts.length === 0) return;
+    
+    // استخراج الكلمات من التصنيفات
+    const tags = categories.slice(0, 20).map(cat => cat.term);
+    
+    let html = '';
+    tags.forEach(tag => {
+        const size = Math.floor(Math.random() * 4) + 12; // حجم عشوائي
+        html += `<a href="#" onclick="filterByCategory('${tag}'); return false;" style="background: rgba(255,255,255,0.05); padding: 8px 15px; border-radius: 30px; color: white; text-decoration: none; font-size: ${size}px;">#${tag}</a>`;
+    });
+    
+    container.innerHTML = html;
+}
+
+// ========== تحديث العدد الإجمالي ==========
+function updateTotalCount() {
+    const totalSpan = document.getElementById('totalCount');
+    if (totalSpan) {
+        totalSpan.textContent = allPosts.length;
+    }
+}
+
+// ========== دوال المساعدة ==========
+function showLoading() {
+    // يمكن إضافة مؤشر تحميل عام
+}
+
+function hideLoading() {
+    // إخفاء مؤشر التحميل
+}
+
+// ========== معالجة النشرة البريدية ==========
+window.handleNewsletter = function(event) {
+    event.preventDefault();
+    const email = event.target.querySelector('input').value;
+    alert(`✅ تم الاشتراك بنجاح! تم تسجيل البريد: ${email}\nشكراً لثقتك بمدونة العرائش التقنية`);
+    event.target.reset();
+};
+
+// ========== زر العودة للأعلى ==========
+const backBtn = document.getElementById('backToTop');
+window.addEventListener('scroll', () => {
+    if (window.scrollY > 300) {
+        backBtn.classList.add('visible');
+    } else {
+        backBtn.classList.remove('visible');
+    }
+});
+
+backBtn.addEventListener('click', (e) => {
+    e.preventDefault();
+    window.scrollTo({ top: 0, behavior: 'smooth' });
+});
+
+// ========== البحث المباشر ==========
+document.getElementById('searchInput')?.addEventListener('input', function(e) {
+    const query = e.target.value.toLowerCase();
+    if (query.length < 2) {
+        document.getElementById('searchSuggestions').style.display = 'none';
+        return;
+    }
+    
+    const suggestions = allPosts
+        .filter(post => post.title.$t.toLowerCase().includes(query))
+        .slice(0, 5);
+    
+    if (suggestions.length > 0) {
+        const suggestionsHtml = suggestions.map(post => {
+            const link = post.link.find(l => l.rel === 'alternate').href;
+            return `<a href="${link}" style="display: block; padding: 10px; color: white; text-decoration: none; border-bottom: 1px solid rgba(255,255,255,0.1);">${post.title.$t}</a>`;
+        }).join('');
+        
+        document.getElementById('searchSuggestions').innerHTML = suggestionsHtml;
+        document.getElementById('searchSuggestions').style.display = 'block';
+    } else {
+        document.getElementById('searchSuggestions').style.display = 'none';
+    }
+});
+
+// إخفاء الاقتراحات عند النقر خارجها
+document.addEventListener('click', function(e) {
+    if (!e.target.closest('.search-wrapper')) {
+        document.getElementById('searchSuggestions').style.display = 'none';
+    }
+});
+
+// ========== بدء التحميل ==========
+loadBlogData();
+
+// ========== تحديث سنة حقوق النشر ==========
+document.querySelector('.copyright-advanced').innerHTML = `
+    &copy; ${new Date().getFullYear()} مدونة العرائش التقنية. جميع الحقوق محفوظة. تم التطوير بواسطة <span style="color: var(--primary);">فريق العرائش التقني</span>
+`;
+</script>
+
+</body>
+</html>
