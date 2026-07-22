@@ -9,7 +9,7 @@
 
 > 🚀 **أكبر مكتبة عربية للشروحات التقنية** - منصة متكاملة تضم آلاف المقالات والشروحات الحصرية
 
-🔗 **رابط الموقع:** [greatxenforo.blogspot.com](https://greatxenforo.blogspot.com/)
+🔗 **رابط الموقع:** .]https://larantech.blogspot.com]
 
 ---
 
